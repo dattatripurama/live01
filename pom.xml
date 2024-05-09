@@ -55,10 +55,6 @@
     <finalName>live</finalName>
     <pluginManagement>
       <plugins>
-               <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-clean-plugin</artifactId>
-    <version>3.3.2</version>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
@@ -78,11 +74,6 @@
           <artifactId>jetty-maven-plugin</artifactId>
           <version>8.1.10.v20130312</version>
         </plugin>
-               <plugin>
-        <groupId>org.sonarsource.scanner.maven</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.7.0.1746</version>
-      </plugin>
       </plugins>
     </pluginManagement>
   </build>
